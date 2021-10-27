@@ -9,6 +9,7 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="CSS/styles.css">
     <!-- font embedding -->
+    <script src="https://kit.fontawesome.com/381eaaabc2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -54,18 +55,38 @@
                     </a>
                 </li>
                 <li class="nav-li">
-                    <a class="nav-li-link" href="#More">
-                        More
-                    </a>
+                    <div class="dropdown">
+                        <a class="nav-li-link dropbtn" href="#More">
+                            More <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#interests">Interests</a>
+                            <a href="#help">Help</a>
+                            <a href="#NeedMentors">NeedMentors</a>
+                            <a href="#addAchievements">AddAchievements</a>
+                        </div>
+                    </div>
                 </li>
-                <li class="nav-li">
+                <li class="nav-li regbtn">
                     <a class="nav-li-link" href="#register">
                         Register
                     </a>
                 </li>
             </ul>
     </div>
-    <script src="JS/script.js" chartset = "utf-8"></script>
+    <div class="intro">
+        <div class="introText">
+            <h1 class="introHeading">Our Vision</h1>
+            <p>When life becomes boring for you, handicare is there  to bring the concept of joy,peace and fun in your lifestyle.</p>
+            <p><a href="#register" class="connect">Let's connect!!</a></p>
+        </div>
+        <div class="introImage">
+            <img src="images/introImg.jpg" class="image" alt="intro-image">
+        </div>
+    </div>
+
+    </div>
+    <script src="JS/script.js" chartset="utf-8"></script>
 </body>
 
 </html>
